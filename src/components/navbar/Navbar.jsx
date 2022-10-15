@@ -3,6 +3,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import PersonIcon from '@mui/icons-material/Person';
 import MenuIcon from '@mui/icons-material/Menu';
 import './Navbar.css'
+import { Facebook, Instagram, Twitter, YouTube } from '@mui/icons-material';
 
 export default function Navbar() {
   return (
@@ -30,13 +31,17 @@ export default function Navbar() {
             <li>Travel</li>
             <li>Views</li>
           </ul>
-        </div>
-        <div className="mobile__menu__button">
-          <div className="menu__icons">
-
-          </div>
-          <div className="social__icons">
-            
+          <div className="mobile__menu__bottom">
+            <div className="menu__icons">
+              <button>Search</button>
+              <button>Account</button>
+            </div>
+            <div className="social__icons">
+              <Instagram className='icon'/>
+              <Facebook className='icon'/>
+              <YouTube className='icon'/>
+              <Twitter className='icon'/>
+            </div>
           </div>
         </div>
     </div>

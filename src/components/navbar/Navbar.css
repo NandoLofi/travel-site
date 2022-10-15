@@ -21,6 +21,42 @@ li {
     display: none;
 }
 @media  screen and (max-width: 940px) {
+    .mobile__menu {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        top: 0;
+        left: 0;
+        position: absolute;
+        justify-content: space-between;
+        background-color: #77F8F1;
+        transition: 0.3s;
+    }
+    .mobile__menu li {
+        padding: 1.2rem 1rem;
+        margin: 0 1rem;
+        border-bottom: 1px solid black;
+    }
+    .movile__nav {
+        margin: 1rem 0;
+    }
+    .mobile__menu__bottom {
+        width: 100%;
+        text-align: center;
+        padding: 1rem 0;
+    }
+    .social__icons {
+        display: flex;
+        justify-content: space-around;
+        margin: 2rem 0;
+    }
+    .social__icons .icon:hover {
+        transform: scale(1.5);
+        transition: 0.3s;
+        cursor: pointer;
+    }
+
+
     .nav__menu {
         display: none;
     }
