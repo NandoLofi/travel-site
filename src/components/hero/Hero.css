@@ -19,6 +19,7 @@
     object-fit: cover;
     z-index: -1;
 }
+
 .hero .content {
     position: absolute;
     top: 0;
@@ -30,4 +31,32 @@
     width: 100%;
     margin: auto;
     padding: 1rem;
+}
+.form {
+    display: flex;
+    background-color: white;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid white;
+    padding: 4px;
+    border-radius: 8px;
+    max-width: 700px;
+    width: 100%;
+    margin: 10px auto;
+}
+.form input[type=text] {
+    border: transparent;
+    background-color: transparent;
+    width: 400px;
+    font-size: 1.2rem;
+}
+.form input[type=text]:focus {
+    outline: none;
+}
+@media screen and (max-width: 940px) {
+    .form input[type=text] {
+        max-width: 275px;
+    }
+
 }
