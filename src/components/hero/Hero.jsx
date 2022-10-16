@@ -9,6 +9,10 @@ export default function Hero() {
             <source src={Video} type='video/mp4'/>
         </video>
         <div className="overlay"></div>
+        <div className="content">
+            <h1>Plan Your Next Trip to A Major</h1>
+            <h2>Explore more than the matches</h2>
+        </div>
     </div>
   )
 }
