@@ -6,11 +6,16 @@
     align-items: center;
     padding: 0 1rem;
     z-index: 2;
+    position: absolute;
+    color: white;
 }
 .nav__bg {
     background-color: #fbeee0;
+    color: black;
 }
-
+.icon {
+    font-size: 3rem;
+}
 
 .nav__menu {
     display: flex;
@@ -35,7 +40,7 @@ li {
         left: 0;
         position: absolute;
         justify-content: space-between;
-        background-color: #83DCDD;
+        background-color: rgba(64, 224, 208, 0.9);
         transition: 0.3s;
     }
     .active {

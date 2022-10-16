@@ -5,6 +5,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import './Navbar.css'
 import { Facebook, Instagram, Twitter, YouTube } from '@mui/icons-material';
 import { useState } from 'react';
+import CloseIcon from '@mui/icons-material/Close';
 
 export default function Navbar() {
   const [nav, setNav] = useState(false)
@@ -28,7 +29,7 @@ export default function Navbar() {
           <PersonIcon className='icon'/>
         </div>
         <div className="hamburger" onClick={handleNav}>
-          <MenuIcon className='icon' />
+          {nav ? (<CloseIcon className='icon'/>) : (<MenuIcon className='icon' />)}
         </div>
         <div className={nav ? 'mobile__menu active' : "mobile__menu"}>
           <ul className="mobile__nav">
