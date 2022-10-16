@@ -25,17 +25,25 @@ li {
         display: flex;
         flex-direction: column;
         width: 100%;
-        top: 0;
+        top: -100vh;
         left: 0;
         position: absolute;
         justify-content: space-between;
-        background-color: #77F8F1;
+        background-color: #83DCDD;
         transition: 0.3s;
+    }
+    .active {
+        top: 80px;
+
     }
     .mobile__menu li {
         padding: 1.2rem 1rem;
         margin: 0 1rem;
         border-bottom: 1px solid black;
+    }
+    .mobile__menu button {
+        margin: 1rem;
+        width: 90%;
     }
     .movile__nav {
         margin: 1rem 0;

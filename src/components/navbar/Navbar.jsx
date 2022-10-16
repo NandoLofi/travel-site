@@ -4,8 +4,14 @@ import PersonIcon from '@mui/icons-material/Person';
 import MenuIcon from '@mui/icons-material/Menu';
 import './Navbar.css'
 import { Facebook, Instagram, Twitter, YouTube } from '@mui/icons-material';
+import { useState } from 'react';
 
 export default function Navbar() {
+  const [nav, setNav] = useState(false)
+
+  const handleNav = ()=> {
+    setNav(!nav)
+  }
   return (
     <div className='navbar'>
         <div className="logo">
@@ -21,10 +27,10 @@ export default function Navbar() {
           <SearchIcon className='icon'/>
           <PersonIcon className='icon'/>
         </div>
-        <div className="hamburger">
+        <div className="hamburger" onClick={handleNav}>
           <MenuIcon className='icon' />
         </div>
-        <div className="mobile__menu">
+        <div className={nav ? 'mobile__menu active' : "mobile__menu"}>
           <ul className="mobile__nav">
             <li>Home</li>
             <li>Destinations</li>
