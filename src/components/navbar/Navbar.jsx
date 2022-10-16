@@ -13,7 +13,7 @@ export default function Navbar() {
     setNav(!nav)
   }
   return (
-    <div className='navbar'>
+    <div className={nav ? 'navbar nav__bg': 'navbar'}>
         <div className="logo">
           <h2>TENNIS MAJORS</h2>
         </div>
@@ -24,7 +24,7 @@ export default function Navbar() {
           <li>Views</li>
         </ul>
         <div className="nav__icons">
-          <SearchIcon className='icon'/>
+          <SearchIcon className='icon'style={{marginRight:'1rem'}} />
           <PersonIcon className='icon'/>
         </div>
         <div className="hamburger" onClick={handleNav}>

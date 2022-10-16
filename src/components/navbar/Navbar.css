@@ -7,6 +7,11 @@
     padding: 0 1rem;
     z-index: 2;
 }
+.nav__bg {
+    background-color: #fbeee0;
+}
+
+
 .nav__menu {
     display: flex;
 }
@@ -15,6 +20,7 @@ li {
 }
 .hamburger {
     display: none;
+    cursor: pointer;
     /* padding: 1rem */
 }
 .mobile__menu {
