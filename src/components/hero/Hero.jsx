@@ -1,7 +1,6 @@
 import React from 'react'
 import './Hero.css'
 import Video from '../../assets/overhead.mp4'
-import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 
 export default function Hero() {
   return (
@@ -18,7 +17,7 @@ export default function Hero() {
                     <input type="text" name="search" placeholder='City or Open'/>
                 </div>
                 <div>
-                    <button><SearchOutlinedIcon style={{paddingTop: '3px'}}/>Search</button>
+                    <button>Search</button>
                 </div>
             </form>
         </div>
