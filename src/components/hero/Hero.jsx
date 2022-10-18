@@ -1,7 +1,8 @@
 import React from 'react'
 import './Hero.css'
 import Video from '../../assets/overhead.mp4'
-import SportsTennisIcon from '@mui/icons-material/SportsTennis';
+import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
+
 export default function Hero() {
   return (
     <div className='hero'>
@@ -14,10 +15,10 @@ export default function Hero() {
             <h2>Explore more than the matches</h2>
             <form action="" className="form">
                 <div>
-                    <input type="text" name="search" placeholder='Search City or Open'/>
+                    <input type="text" name="search" placeholder='City or Open'/>
                 </div>
                 <div>
-                    <button><SportsTennisIcon className='icon'/></button>
+                    <button><SearchOutlinedIcon style={{paddingTop: '3px'}}/>Search</button>
                 </div>
             </form>
         </div>
