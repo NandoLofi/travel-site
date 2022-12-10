@@ -1,0 +1,10 @@
+.input__wrap {
+    padding: 10px 0 0 100px;
+    font-size: 20px;
+}
+#destination {
+    width: 200px;
+    margin-left: 10px;
+    height: 30px;
+    font-size: 20px;
+}
