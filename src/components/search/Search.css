@@ -3,8 +3,15 @@
     font-size: 20px;
 }
 #destination {
-    width: 200px;
+    width: 100px;
     margin-left: 10px;
     height: 30px;
-    font-size: 20px;
+    font-size: 15px;
+    border-radius: 8px;
+}
+.start__date {
+    width: 120px;
+    padding: 5px;
+    border-bottom: 2px black;
+    border-radius: 8px;
 }
