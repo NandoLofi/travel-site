@@ -5,8 +5,8 @@
 }
 .img__container {
     --gap:1rem;
-    --num-cols: 5;
-    --row-heigh: 300px;
+    --num-cols: 4;
+    --row-heigh: 200px;
 
     display: grid;
     margin: auto;
@@ -27,7 +27,7 @@
 }
 @media screen and (max-width: 940px){
     .img__container {
-        --num-cols: 2;
+        --num-cols: 1;
         --row-heigh: 200px;
         --gap: .5rem
     }
