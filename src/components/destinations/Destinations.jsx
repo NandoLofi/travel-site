@@ -12,7 +12,7 @@ export default function Destinations() {
             <h1> Tennis Open Host Cities </h1>
         </div>
         <div className="img__container">
-            <img src={Paris} className='span__3 image__row__2' alt='parisimage' />
+            <img src={Paris} className='span__3 image__row__2' alt='parisimage'  />
             <img src={Nyc} alt='NYCimage'/>
             <img src={Melbourne}  alt='Melbourneimage'/>
             <img src={London} className="london" alt='Londonimage'/>
